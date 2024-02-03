@@ -21,7 +21,7 @@ void list_factors(factors **head)
             if (temp->number % i == 0)
             {
                 j = temp->number / i;
-                printf("%llu = %llu * %llu\n", temp->number, j, i);
+                printf("%llu=%llu*%llu\n", temp->number, j, i);
                 break;
             }
         }
